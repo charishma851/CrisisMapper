@@ -1,16 +1,92 @@
-# React + Vite
+# 🚨 CrisisMapper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### AI + Human Coordination for Disaster Response
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🧠 Problem
+During disasters (floods, cyclones, earthquakes), thousands of people post rescue requests on social media.  
+However, emergency responders cannot process this information in real time.
 
-## React Compiler
+👉 Critical signals get lost in noise → delayed response → lives at risk
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 💡 Solution
+CrisisMapper converts unstructured social media data into structured, actionable intelligence and visualizes it on a live map.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+It enables both:
+- 🏢 Responders to prioritize rescue efforts  
+- 🙋 Volunteers to actively participate in helping  
+
+---
+
+## ⚙️ How It Works
+1. Input:
+   - Social media text  
+   - Screenshots  
+   - Links  
+
+2. AI Processing:
+   - Extracts:
+     - 📍 Location  
+     - 🚨 Urgency level  
+     - 🆘 Type of need  
+
+3. Output:
+   - Structured data  
+   - Real-time map visualization  
+
+---
+
+## 🚀 Key Features
+- Real-time disaster data processing  
+- Multilingual support (English, Hindi, Telugu)  
+- Confidence scoring (AI reliability)  
+- Screenshot & link ingestion  
+- Volunteer mode ("I can help")  
+- Claim & resolve system  
+- Filtering by urgency & need type  
+
+---
+
+## 🤝 Volunteer Mode
+Citizens in safe areas can:
+- View nearby requests  
+- Identify unassigned cases  
+- Click **“I can help”**  
+
+👉 Prevents duplication and improves coordination  
+
+---
+
+## 🛠 Tech Stack
+- Frontend: React (Vite)  
+- Map: Leaflet.js  
+- Backend: Node.js (mocked)  
+- AI: LLM / simulated extraction  
+
+
+📸 Demo
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+---
+
+## 📊 Impact
+- Faster rescue response  
+- Better resource allocation  
+- Community-driven disaster support  
+
+---
+
+## 🎯 Future Scope
+- Real-time API integration (Twitter, etc.)  
+- Verification systems  
+- Predictive disaster analytics  
+
+---
+
+## 🏁 Conclusion
+> “In disasters, minutes matter.  
+> CrisisMapper transforms information into coordinated action.”
